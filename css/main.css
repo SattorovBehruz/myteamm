@@ -5,8 +5,8 @@
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/livvicmedium.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../fonts/livvicmedium.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-       }
+  url('../fonts/livvicmedium.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
 /* livvic-500italic - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -14,8 +14,8 @@
   font-style: italic;
   font-weight: 500;
   src: url('../fonts/livvicmediumitalic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../fonts/livvicmediumitalic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-       }
+  url('../fonts/livvicmediumitalic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
 /* livvic-600 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -23,8 +23,8 @@
   font-style: normal;
   font-weight: 600;
   src: url('../fonts/livvicsemibold.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../fonts/livvicsemibold.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-       }
+  url('../fonts/livvicsemibold.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
 /* livvic-700 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -32,8 +32,8 @@
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/livvicbold.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../fonts/livvicbold.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-     }
+  url('../fonts/livvicbold.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
 
 *,
 *::before,
@@ -137,7 +137,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   content: "";
-
+  
 }
 
 .hero::after {
@@ -256,7 +256,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   content: "";
-
+  
 }
 
 .build_item:nth-child(2):before {
@@ -287,7 +287,7 @@ img {
   position: relative;
   padding-block: 140px;
   background-color:#004047;
-
+  
 }
 .delivering::before {
   position: absolute;
@@ -413,7 +413,7 @@ img {
 .site_footer {
   padding-block: 48px;
   background: #002529;
-
+  
 }
 
 .footer_inner {
@@ -435,7 +435,7 @@ img {
   justify-content: end;
   gap: 12px;
   margin-bottom: 50px;
-
+  
 }
 
 .footer_text {
@@ -445,4 +445,59 @@ img {
   font-weight: 600;
   line-height: 25px; /* 166.667% */
   opacity: 0.6;
+}
+
+/* about style */
+
+/* hero-about style start */
+
+.hero-about {
+  display: flex;
+  padding-block: 124px 176px;
+  background-color: #014e56;
+}
+
+.hero-about::before {
+  position: absolute;
+  bottom: -7px;
+  right: -100px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/heroaboutimg.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.hero-about-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 64px;
+  margin-right: 177px;
+  line-height: 100px;
+}
+
+.hero-wrapper-text {
+  width: 730px;
+}
+
+.line-span {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background: #f67e7e;
+  margin-bottom: 40px;
+}
+
+.text {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
 }
